@@ -1,10 +1,20 @@
 {
-  "name": "bosnadev/repositories",
+  "name": "renepardon/repositories",
+  "version": "master",
+  "type": "laravel54-repository",
+  "dist": {
+    "url": "https://github.com/renepardon/repository.git",
+    "type": "git"
+  },
   "description": "Laravel Repositories",
   "license": "MIT",
   "homepage": "https://bosnadev.com",
   "keywords": ["laravel", "repository", "repositories", "eloquent", "database"],
   "authors": [
+    {
+      "name": "Christoph, René Pardon",
+      "email": "christoph@renepardon.de"
+    },
     {
       "name": "Mirza Pasic",
       "email": "mirza@bosnadev.com"
