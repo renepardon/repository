@@ -1,19 +1,19 @@
 <?php
 
-namespace Bosnadev\Repositories\Providers;
+namespace Renepardon\Repositories\Providers;
 
 use Illuminate\Support\Composer;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\ServiceProvider;
-use Bosnadev\Repositories\Console\Commands\MakeCriteriaCommand;
-use Bosnadev\Repositories\Console\Commands\MakeRepositoryCommand;
-use Bosnadev\Repositories\Console\Commands\Creators\CriteriaCreator;
-use Bosnadev\Repositories\Console\Commands\Creators\RepositoryCreator;
+use Renepardon\Repositories\Console\Commands\MakeCriteriaCommand;
+use Renepardon\Repositories\Console\Commands\MakeRepositoryCommand;
+use Renepardon\Repositories\Console\Commands\Creators\CriteriaCreator;
+use Renepardon\Repositories\Console\Commands\Creators\RepositoryCreator;
 
 /**
  * Class RepositoryProvider
  *
- * @package Bosnadev\Repositories\Providers
+ * @package Renepardon\Repositories\Providers
  */
 class RepositoryProvider extends ServiceProvider
 {

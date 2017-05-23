@@ -1,16 +1,16 @@
 <?php
 
-namespace Bosnadev\Repositories\Console\Commands;
+namespace Renepardon\Repositories\Console\Commands;
 
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
-use Bosnadev\Repositories\Console\Commands\Creators\RepositoryCreator;
+use Renepardon\Repositories\Console\Commands\Creators\RepositoryCreator;
 
 /**
  * Class MakeRepositoryCommand
  *
- * @package Bosnadev\Repositories\Console\Commands
+ * @package Renepardon\Repositories\Console\Commands
  */
 class MakeRepositoryCommand extends Command
 {

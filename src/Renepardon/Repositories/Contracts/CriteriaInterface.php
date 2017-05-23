@@ -1,12 +1,12 @@
 <?php
 
-namespace Bosnadev\Repositories\Contracts;
+namespace Renepardon\Repositories\Contracts;
 
-use Bosnadev\Repositories\Criteria\Criteria;
+use Renepardon\Repositories\Criteria\Criteria;
 
 /**
  * Interface CriteriaInterface
- * @package Bosnadev\Repositories\Contracts
+ * @package Renepardon\Repositories\Contracts
  */
 interface CriteriaInterface {
 

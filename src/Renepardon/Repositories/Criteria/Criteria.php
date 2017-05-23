@@ -1,6 +1,6 @@
-<?php namespace Bosnadev\Repositories\Criteria;
+<?php namespace Renepardon\Repositories\Criteria;
 
-use Bosnadev\Repositories\Contracts\RepositoryInterface as Repository;
+use Renepardon\Repositories\Contracts\RepositoryInterface as Repository;
 
 abstract class Criteria {
 

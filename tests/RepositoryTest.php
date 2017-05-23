@@ -1,6 +1,6 @@
 <?php
 
-namespace Bosnadev\Tests\Repositories;
+namespace Renepardon\Tests\Repositories;
 
 use \Mockery as m;
 use \PHPUnit_Framework_TestCase as TestCase;

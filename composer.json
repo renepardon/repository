@@ -32,12 +32,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Bosnadev\\": "src/Bosnadev/"
+      "Renepardon\\": "src/Renepardon/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Bosnadev\\Repositories\\Tests\\": "tests/"
+      "Renepardon\\Repositories\\Tests\\": "tests/"
     }
   },
   "extra": {

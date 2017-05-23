@@ -29,13 +29,13 @@ then run ```composer update```
 
 ## Usage
 
-First, create your repository class. Note that your repository class MUST extend ```Bosnadev\Repositories\Eloquent\Repository``` and implement model() method
+First, create your repository class. Note that your repository class MUST extend ```Renepardon\Repositories\Eloquent\Repository``` and implement model() method
 
 ```php
 <?php namespace App\Repositories;
 
-use Bosnadev\Repositories\Contracts\RepositoryInterface;
-use Bosnadev\Repositories\Eloquent\Repository;
+use Renepardon\Repositories\Contracts\RepositoryInterface;
+use Renepardon\Repositories\Eloquent\Repository;
 
 class FilmsRepository extends Repository {
 
@@ -90,7 +90,7 @@ class FilmsController extends Controller {
 
 The following methods are available:
 
-##### Bosnadev\Repositories\Contracts\RepositoryInterface
+##### Renepardon\Repositories\Contracts\RepositoryInterface
 
 ```php
 public function all($columns = array('*'))
@@ -106,7 +106,7 @@ public function findAllBy($field, $value, $columns = array('*'))
 public function findWhere($where, $columns = array('*'))
 ```
 
-##### Bosnadev\Repositories\Contracts\CriteriaInterface
+##### Renepardon\Repositories\Contracts\CriteriaInterface
 
 ```php
 public function apply($model, Repository $repository)
@@ -167,15 +167,15 @@ $this->film->findWhere([
 
 ## Criteria
 
-Criteria is a simple way to apply specific condition, or set of conditions to the repository query. Your criteria class MUST extend the abstract ```Bosnadev\Repositories\Criteria\Criteria``` class.
+Criteria is a simple way to apply specific condition, or set of conditions to the repository query. Your criteria class MUST extend the abstract ```Renepardon\Repositories\Criteria\Criteria``` class.
 
 Here is a simple criteria:
 
 ```php
 <?php namespace App\Repositories\Criteria\Films;
 
-use Bosnadev\Repositories\Criteria\Criteria;
-use Bosnadev\Repositories\Contracts\RepositoryInterface as Repository;
+use Renepardon\Repositories\Criteria\Criteria;
+use Renepardon\Repositories\Contracts\RepositoryInterface as Repository;
 
 class LengthOverTwoHours extends Criteria {
 

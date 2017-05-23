@@ -1,19 +1,19 @@
 <?php
 
-namespace Bosnadev\Repositories\Eloquent;
+namespace Renepardon\Repositories\Eloquent;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Container\Container as App;
-use Bosnadev\Repositories\Contracts\RepositoryInterface;
-use Bosnadev\Repositories\Exceptions\RepositoryException;
-use Bosnadev\Repositories\Contracts\CriteriaInterface;
-use Bosnadev\Repositories\Criteria\Criteria;
+use Renepardon\Repositories\Contracts\RepositoryInterface;
+use Renepardon\Repositories\Exceptions\RepositoryException;
+use Renepardon\Repositories\Contracts\CriteriaInterface;
+use Renepardon\Repositories\Criteria\Criteria;
 
 /**
  * Class Repository
  *
- * @package Bosnadev\Repositories\Eloquent
+ * @package Renepardon\Repositories\Eloquent
  */
 abstract class Repository implements RepositoryInterface, CriteriaInterface
 {
@@ -51,7 +51,7 @@ abstract class Repository implements RepositoryInterface, CriteriaInterface
      * @param App        $app
      * @param Collection $collection
      *
-     * @throws \Bosnadev\Repositories\Exceptions\RepositoryException
+     * @throws \Renepardon\Repositories\Exceptions\RepositoryException
      */
     public function __construct(App $app, Collection $collection)
     {

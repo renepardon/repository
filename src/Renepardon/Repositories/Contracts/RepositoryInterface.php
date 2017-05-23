@@ -1,8 +1,8 @@
-<?php namespace Bosnadev\Repositories\Contracts;
+<?php namespace Renepardon\Repositories\Contracts;
 
 /**
  * Interface RepositoryInterface
- * @package Bosnadev\Repositories\Contracts
+ * @package Renepardon\Repositories\Contracts
  */
 interface RepositoryInterface {
 
